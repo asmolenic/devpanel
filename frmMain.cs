@@ -50,6 +50,7 @@ namespace DevPanel
             int x = 4;
             x++;
             x++;
+            x--;
 
             MessageBox.Show(x.ToString());
         }
