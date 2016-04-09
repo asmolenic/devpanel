@@ -46,12 +46,12 @@ namespace DevPanel
 
         private void btnElisabeta_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nu cunosc!");
+            MessageBox.Show("Nu cunosc! sau ma insel ?!");
         }
 
         private void btnFlorin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Parca-l stiu ...");
+            MessageBox.Show("Parca-l stiu de undeva ...");
         }
     }
 }
