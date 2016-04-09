@@ -47,6 +47,10 @@ namespace DevPanel
         private void btnElisabeta_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Nu cunosc! sau ma insel ?!");
+            int x = 4;
+            x++;
+
+            MessageBox.Show(x.ToString());
         }
 
         private void btnFlorin_Click(object sender, EventArgs e)
