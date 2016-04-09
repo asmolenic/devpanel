@@ -49,6 +49,7 @@ namespace DevPanel
             MessageBox.Show("Nu cunosc! sau ma insel ?!");
             int x = 4;
             x++;
+            x++;
 
             MessageBox.Show(x.ToString());
         }
