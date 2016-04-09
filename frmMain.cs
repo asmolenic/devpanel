@@ -46,7 +46,12 @@ namespace DevPanel
 
         private void btnElisabeta_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nu cunoscsdsdsd!");
+            MessageBox.Show("Nu cunosc!");
+        }
+
+        private void btnFlorin_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Parca-l stiu ...");
         }
     }
 }

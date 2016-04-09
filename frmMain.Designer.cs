@@ -30,6 +30,7 @@
         {
             this.btnAndrei = new System.Windows.Forms.Button();
             this.btnElisabeta = new System.Windows.Forms.Button();
+            this.btnFlorin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAndrei
@@ -52,11 +53,22 @@
             this.btnElisabeta.UseVisualStyleBackColor = true;
             this.btnElisabeta.Click += new System.EventHandler(this.btnElisabeta_Click);
             // 
+            // btnFlorin
+            // 
+            this.btnFlorin.Location = new System.Drawing.Point(231, 21);
+            this.btnFlorin.Name = "btnFlorin";
+            this.btnFlorin.Size = new System.Drawing.Size(75, 23);
+            this.btnFlorin.TabIndex = 2;
+            this.btnFlorin.Text = "Florin";
+            this.btnFlorin.UseVisualStyleBackColor = true;
+            this.btnFlorin.Click += new System.EventHandler(this.btnFlorin_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 291);
+            this.Controls.Add(this.btnFlorin);
             this.Controls.Add(this.btnElisabeta);
             this.Controls.Add(this.btnAndrei);
             this.Name = "frmMain";
@@ -70,6 +82,7 @@
 
         private System.Windows.Forms.Button btnAndrei;
         private System.Windows.Forms.Button btnElisabeta;
+        private System.Windows.Forms.Button btnFlorin;
     }
 }
 
