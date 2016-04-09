@@ -51,6 +51,7 @@ namespace DevPanel
             x++;
             x++;
             x--;
+            x++;
 
             MessageBox.Show(x.ToString());
         }
