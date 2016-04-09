@@ -46,7 +46,7 @@ namespace DevPanel
 
         private void btnElisabeta_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nu cunosc!");
+            MessageBox.Show("Nu cunoscsdsdsd!");
         }
     }
 }
