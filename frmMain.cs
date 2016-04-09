@@ -43,5 +43,10 @@ namespace DevPanel
             frmAS.Show();
             this.Hide();
         }
+
+        private void btnElisabeta_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Nu cunosc!");
+        }
     }
 }

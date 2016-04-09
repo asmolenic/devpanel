@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnAndrei = new System.Windows.Forms.Button();
+            this.btnElisabeta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAndrei
@@ -41,11 +42,22 @@
             this.btnAndrei.UseVisualStyleBackColor = true;
             this.btnAndrei.Click += new System.EventHandler(this.btnAndrei_Click);
             // 
+            // btnElisabeta
+            // 
+            this.btnElisabeta.Location = new System.Drawing.Point(125, 21);
+            this.btnElisabeta.Name = "btnElisabeta";
+            this.btnElisabeta.Size = new System.Drawing.Size(75, 23);
+            this.btnElisabeta.TabIndex = 1;
+            this.btnElisabeta.Text = "Elisabeta";
+            this.btnElisabeta.UseVisualStyleBackColor = true;
+            this.btnElisabeta.Click += new System.EventHandler(this.btnElisabeta_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 291);
+            this.Controls.Add(this.btnElisabeta);
             this.Controls.Add(this.btnAndrei);
             this.Name = "frmMain";
             this.Text = "Dev Panel";
@@ -57,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnAndrei;
+        private System.Windows.Forms.Button btnElisabeta;
     }
 }
 
